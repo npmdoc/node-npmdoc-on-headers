@@ -1,4 +1,7 @@
-# api documentation for  [on-headers (v1.0.1)](https://github.com/jshttp/on-headers)  [![npm package](https://img.shields.io/npm/v/npmdoc-on-headers.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-on-headers) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-on-headers.svg)](https://travis-ci.org/npmdoc/node-npmdoc-on-headers)
+# npmdoc-on-headers
+
+#### basic api documentation for  [on-headers (v1.0.1)](https://github.com/jshttp/on-headers)  [![npm package](https://img.shields.io/npm/v/npmdoc-on-headers.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-on-headers) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-on-headers.svg)](https://travis-ci.org/npmdoc/node-npmdoc-on-headers)
+
 #### Execute a listener when a response is about to write headers
 
 [![NPM](https://nodei.co/npm/on-headers.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/on-headers)
@@ -73,7 +76,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
     },
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
